@@ -22,5 +22,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('list/',emp_list),
     path('deatils/<int:pk>/',deatils),
-    path('employee/',employee,name='employee')
+    path('employee/',employee,name='employee'),
+    path('seralizeall/',seralizeall),
+    path('seralizeone/<int:pk>/',seralizeone),
+
+
 ]
